@@ -1,0 +1,56 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:stretchColumns="*"
+    android:shrinkColumns="*"
+    android:layout_gravity="center">
+    <TableRow
+        android:id="@+id/fila0">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="crear"
+            android:textSize="15dp"
+            android:textAlignment="center"
+            android:layout_weight="1"
+            android:onClick="crearCliente"/>
+
+    </TableRow>
+    <TableRow
+        android:id="@+id/fila1">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="ID"
+            android:textSize="15dp"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Nombre"
+            android:textSize="15dp"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apellidos"
+            android:textSize="15dp"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Telefono"
+            android:textSize="15dp"
+            android:textAlignment="center" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Borrar"
+            android:textSize="15dp"
+            android:textAlignment="center" />
+    </TableRow>
+
+</TableLayout>
